@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63451E4F2CB56C1D007B2B8A /* WizardingWorldAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E4E2CB56C1D007B2B8A /* WizardingWorldAppApp.swift */; };
+		63451E512CB56C1D007B2B8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E502CB56C1D007B2B8A /* ContentView.swift */; };
+		63451E532CB56C1E007B2B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63451E522CB56C1E007B2B8A /* Assets.xcassets */; };
+		63451E562CB56C1E007B2B8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63451E552CB56C1E007B2B8A /* Preview Assets.xcassets */; };
+		63451E602CB56C1F007B2B8A /* WizardingWorldAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E5F2CB56C1F007B2B8A /* WizardingWorldAppTests.swift */; };
+		63451E6A2CB56C1F007B2B8A /* WizardingWorldAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E692CB56C1F007B2B8A /* WizardingWorldAppUITests.swift */; };
+		63451E6C2CB56C1F007B2B8A /* WizardingWorldAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E6B2CB56C1F007B2B8A /* WizardingWorldAppUITestsLaunchTests.swift */; };
+		63451E7A2CB56C7B007B2B8A /* WizardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E792CB56C7B007B2B8A /* WizardsViewModel.swift */; };
+		63451E7C2CB56C8F007B2B8A /* WizardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63451E7B2CB56C8F007B2B8A /* WizardsModel.swift */; };
+		638B8D162CB57B11004C0108 /* WizardDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B8D152CB57B11004C0108 /* WizardDetailsView.swift */; };
+		63CC46BB2CB58F4700E1A838 /* ElixirDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC46BA2CB58F4700E1A838 /* ElixirDetailsView.swift */; };
+		63CC46BD2CB5906C00E1A838 /* ElixirViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC46BC2CB5906C00E1A838 /* ElixirViewModel.swift */; };
+		63CC46BF2CB5913E00E1A838 /* ElixirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC46BE2CB5913E00E1A838 /* ElixirModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63451E5C2CB56C1F007B2B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63451E432CB56C1D007B2B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63451E4A2CB56C1D007B2B8A;
+			remoteInfo = WizardingWorldApp;
+		};
+		63451E662CB56C1F007B2B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63451E432CB56C1D007B2B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63451E4A2CB56C1D007B2B8A;
+			remoteInfo = WizardingWorldApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63451E4B2CB56C1D007B2B8A /* WizardingWorldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WizardingWorldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63451E4E2CB56C1D007B2B8A /* WizardingWorldAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardingWorldAppApp.swift; sourceTree = "<group>"; };
+		63451E502CB56C1D007B2B8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63451E522CB56C1E007B2B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63451E552CB56C1E007B2B8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63451E5B2CB56C1F007B2B8A /* WizardingWorldAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizardingWorldAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63451E5F2CB56C1F007B2B8A /* WizardingWorldAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardingWorldAppTests.swift; sourceTree = "<group>"; };
+		63451E652CB56C1F007B2B8A /* WizardingWorldAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WizardingWorldAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63451E692CB56C1F007B2B8A /* WizardingWorldAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardingWorldAppUITests.swift; sourceTree = "<group>"; };
+		63451E6B2CB56C1F007B2B8A /* WizardingWorldAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardingWorldAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63451E792CB56C7B007B2B8A /* WizardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardsViewModel.swift; sourceTree = "<group>"; };
+		63451E7B2CB56C8F007B2B8A /* WizardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardsModel.swift; sourceTree = "<group>"; };
+		638B8D152CB57B11004C0108 /* WizardDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardDetailsView.swift; sourceTree = "<group>"; };
+		63CC46BA2CB58F4700E1A838 /* ElixirDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirDetailsView.swift; sourceTree = "<group>"; };
+		63CC46BC2CB5906C00E1A838 /* ElixirViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirViewModel.swift; sourceTree = "<group>"; };
+		63CC46BE2CB5913E00E1A838 /* ElixirModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElixirModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63451E482CB56C1D007B2B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E582CB56C1F007B2B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E622CB56C1F007B2B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63451E422CB56C1D007B2B8A = {
+			isa = PBXGroup;
+			children = (
+				63451E4D2CB56C1D007B2B8A /* WizardingWorldApp */,
+				63451E5E2CB56C1F007B2B8A /* WizardingWorldAppTests */,
+				63451E682CB56C1F007B2B8A /* WizardingWorldAppUITests */,
+				63451E4C2CB56C1D007B2B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63451E4C2CB56C1D007B2B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63451E4B2CB56C1D007B2B8A /* WizardingWorldApp.app */,
+				63451E5B2CB56C1F007B2B8A /* WizardingWorldAppTests.xctest */,
+				63451E652CB56C1F007B2B8A /* WizardingWorldAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63451E4D2CB56C1D007B2B8A /* WizardingWorldApp */ = {
+			isa = PBXGroup;
+			children = (
+				63451E4E2CB56C1D007B2B8A /* WizardingWorldAppApp.swift */,
+				63451E502CB56C1D007B2B8A /* ContentView.swift */,
+				63451E782CB56C4F007B2B8A /* Wizards */,
+				638B8D142CB57AC2004C0108 /* Wizard Details */,
+				63CC46B92CB58F1800E1A838 /* Elixir Details */,
+				63451E522CB56C1E007B2B8A /* Assets.xcassets */,
+				63451E542CB56C1E007B2B8A /* Preview Content */,
+			);
+			path = WizardingWorldApp;
+			sourceTree = "<group>";
+		};
+		63451E542CB56C1E007B2B8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63451E552CB56C1E007B2B8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63451E5E2CB56C1F007B2B8A /* WizardingWorldAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63451E5F2CB56C1F007B2B8A /* WizardingWorldAppTests.swift */,
+			);
+			path = WizardingWorldAppTests;
+			sourceTree = "<group>";
+		};
+		63451E682CB56C1F007B2B8A /* WizardingWorldAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63451E692CB56C1F007B2B8A /* WizardingWorldAppUITests.swift */,
+				63451E6B2CB56C1F007B2B8A /* WizardingWorldAppUITestsLaunchTests.swift */,
+			);
+			path = WizardingWorldAppUITests;
+			sourceTree = "<group>";
+		};
+		63451E782CB56C4F007B2B8A /* Wizards */ = {
+			isa = PBXGroup;
+			children = (
+				63451E792CB56C7B007B2B8A /* WizardsViewModel.swift */,
+				63451E7B2CB56C8F007B2B8A /* WizardsModel.swift */,
+			);
+			path = Wizards;
+			sourceTree = "<group>";
+		};
+		638B8D142CB57AC2004C0108 /* Wizard Details */ = {
+			isa = PBXGroup;
+			children = (
+				638B8D152CB57B11004C0108 /* WizardDetailsView.swift */,
+			);
+			path = "Wizard Details";
+			sourceTree = "<group>";
+		};
+		63CC46B92CB58F1800E1A838 /* Elixir Details */ = {
+			isa = PBXGroup;
+			children = (
+				63CC46BA2CB58F4700E1A838 /* ElixirDetailsView.swift */,
+				63CC46BC2CB5906C00E1A838 /* ElixirViewModel.swift */,
+				63CC46BE2CB5913E00E1A838 /* ElixirModel.swift */,
+			);
+			path = "Elixir Details";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63451E4A2CB56C1D007B2B8A /* WizardingWorldApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63451E6F2CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldApp" */;
+			buildPhases = (
+				63451E472CB56C1D007B2B8A /* Sources */,
+				63451E482CB56C1D007B2B8A /* Frameworks */,
+				63451E492CB56C1D007B2B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WizardingWorldApp;
+			productName = WizardingWorldApp;
+			productReference = 63451E4B2CB56C1D007B2B8A /* WizardingWorldApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63451E5A2CB56C1F007B2B8A /* WizardingWorldAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63451E722CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldAppTests" */;
+			buildPhases = (
+				63451E572CB56C1F007B2B8A /* Sources */,
+				63451E582CB56C1F007B2B8A /* Frameworks */,
+				63451E592CB56C1F007B2B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63451E5D2CB56C1F007B2B8A /* PBXTargetDependency */,
+			);
+			name = WizardingWorldAppTests;
+			productName = WizardingWorldAppTests;
+			productReference = 63451E5B2CB56C1F007B2B8A /* WizardingWorldAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63451E642CB56C1F007B2B8A /* WizardingWorldAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63451E752CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldAppUITests" */;
+			buildPhases = (
+				63451E612CB56C1F007B2B8A /* Sources */,
+				63451E622CB56C1F007B2B8A /* Frameworks */,
+				63451E632CB56C1F007B2B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63451E672CB56C1F007B2B8A /* PBXTargetDependency */,
+			);
+			name = WizardingWorldAppUITests;
+			productName = WizardingWorldAppUITests;
+			productReference = 63451E652CB56C1F007B2B8A /* WizardingWorldAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63451E432CB56C1D007B2B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					63451E4A2CB56C1D007B2B8A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					63451E5A2CB56C1F007B2B8A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63451E4A2CB56C1D007B2B8A;
+					};
+					63451E642CB56C1F007B2B8A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 63451E4A2CB56C1D007B2B8A;
+					};
+				};
+			};
+			buildConfigurationList = 63451E462CB56C1D007B2B8A /* Build configuration list for PBXProject "WizardingWorldApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63451E422CB56C1D007B2B8A;
+			productRefGroup = 63451E4C2CB56C1D007B2B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63451E4A2CB56C1D007B2B8A /* WizardingWorldApp */,
+				63451E5A2CB56C1F007B2B8A /* WizardingWorldAppTests */,
+				63451E642CB56C1F007B2B8A /* WizardingWorldAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63451E492CB56C1D007B2B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63451E562CB56C1E007B2B8A /* Preview Assets.xcassets in Resources */,
+				63451E532CB56C1E007B2B8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E592CB56C1F007B2B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E632CB56C1F007B2B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63451E472CB56C1D007B2B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63451E512CB56C1D007B2B8A /* ContentView.swift in Sources */,
+				63451E4F2CB56C1D007B2B8A /* WizardingWorldAppApp.swift in Sources */,
+				63CC46BF2CB5913E00E1A838 /* ElixirModel.swift in Sources */,
+				63CC46BB2CB58F4700E1A838 /* ElixirDetailsView.swift in Sources */,
+				63CC46BD2CB5906C00E1A838 /* ElixirViewModel.swift in Sources */,
+				63451E7C2CB56C8F007B2B8A /* WizardsModel.swift in Sources */,
+				638B8D162CB57B11004C0108 /* WizardDetailsView.swift in Sources */,
+				63451E7A2CB56C7B007B2B8A /* WizardsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E572CB56C1F007B2B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63451E602CB56C1F007B2B8A /* WizardingWorldAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63451E612CB56C1F007B2B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63451E6A2CB56C1F007B2B8A /* WizardingWorldAppUITests.swift in Sources */,
+				63451E6C2CB56C1F007B2B8A /* WizardingWorldAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63451E5D2CB56C1F007B2B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63451E4A2CB56C1D007B2B8A /* WizardingWorldApp */;
+			targetProxy = 63451E5C2CB56C1F007B2B8A /* PBXContainerItemProxy */;
+		};
+		63451E672CB56C1F007B2B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63451E4A2CB56C1D007B2B8A /* WizardingWorldApp */;
+			targetProxy = 63451E662CB56C1F007B2B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63451E6D2CB56C1F007B2B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63451E6E2CB56C1F007B2B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63451E702CB56C1F007B2B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardingWorldApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63451E712CB56C1F007B2B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WizardingWorldApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63451E732CB56C1F007B2B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizardingWorldApp.app/WizardingWorldApp";
+			};
+			name = Debug;
+		};
+		63451E742CB56C1F007B2B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WizardingWorldApp.app/WizardingWorldApp";
+			};
+			name = Release;
+		};
+		63451E762CB56C1F007B2B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WizardingWorldApp;
+			};
+			name = Debug;
+		};
+		63451E772CB56C1F007B2B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XP5K4KC6WK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = suhaib.WizardingWorldAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WizardingWorldApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63451E462CB56C1D007B2B8A /* Build configuration list for PBXProject "WizardingWorldApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63451E6D2CB56C1F007B2B8A /* Debug */,
+				63451E6E2CB56C1F007B2B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63451E6F2CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63451E702CB56C1F007B2B8A /* Debug */,
+				63451E712CB56C1F007B2B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63451E722CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63451E732CB56C1F007B2B8A /* Debug */,
+				63451E742CB56C1F007B2B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63451E752CB56C1F007B2B8A /* Build configuration list for PBXNativeTarget "WizardingWorldAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63451E762CB56C1F007B2B8A /* Debug */,
+				63451E772CB56C1F007B2B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63451E432CB56C1D007B2B8A /* Project object */;
+}
